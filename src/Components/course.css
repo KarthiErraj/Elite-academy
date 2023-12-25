@@ -1,0 +1,24 @@
+.parent{
+    
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    position: relative;
+    background-color: whitesmoke;
+    /* opacity: 0.8; */
+    transition: transform 0.3s ease;
+    /* overflow: hidden; */
+}
+
+.parent:hover .child{
+    /* box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); */
+    transform: scale(1.1);
+    /* box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); */
+    transition: transform 0.3 ease;
+    box-shadow: 5px 4px  6px;
+    border-radius: 10%;
+    background-color: whitesmoke;
+   
+   transition: transform 0.3s ease;
+}

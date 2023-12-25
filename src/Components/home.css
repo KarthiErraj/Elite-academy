@@ -1,0 +1,33 @@
+.cont1{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+body{
+    background-image: url('./img/li2.jpg');
+}
+.about
+{
+    background-color: whitesmoke;
+    opacity:0.8;
+    /* font-style: italic; */
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 500;
+
+}
+.contact{
+ 
+    /* background-color: whitesmoke; */
+    height: 500px;
+    margin: auto;
+    opacity:0.8;
+}
+.cont-1
+{
+    background-color: whitesmoke;
+    margin: 20px;
+}
