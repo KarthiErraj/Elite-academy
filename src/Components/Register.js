@@ -43,7 +43,7 @@ function Register() {
   
 <div className='col-sm-12 col-md-6 col-lg-6  col-xl-6   my-2'>
             <label className='form-label fw-bold'>Student Name :</label>
-            <input type='text' className='form-control border border-dark'
+            <input type='text' maxLength={25} className='form-control border border-dark'
               name='name'
               value={details.name}
               onChange={(e) => getdata(e)} >
@@ -54,7 +54,7 @@ function Register() {
 
           <div className='col-sm-12 col-md-6 col-lg-6  col-xl-6   my-2'>
             <label className='form-label fw-bold'>Mobile no :</label>
-            <input type='text' className='form-control border border-dark'
+            <input type='number' maxLength={10} className='form-control border border-dark'
               name='mobile'
               value={details.mobile}
               onChange={(e) => getdata(e)} >
